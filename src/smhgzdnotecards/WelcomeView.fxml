@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: lightsteelblue; -fx-border-width: 10; -fx-border-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smhgzdnotecards.WelcomeViewController">
+    <children>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="200.0" layoutY="300.0" maxHeight="200.0" maxWidth="200.0" mnemonicParsing="false" onAction="#handleNewSetButton" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: orchid; -fx-border-color: white; -fx-border-width: 3;" text="New Set" textAlignment="CENTER" textFill="#5a5a5a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="450.0" layoutY="300.0" maxHeight="200.0" maxWidth="200.0" mnemonicParsing="false" onAction="#handleLoadSetButton" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: lightgreen; -fx-border-color: white; -fx-border-width: 3;" text="Load Set" textAlignment="CENTER" textFill="#5a5a5a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="185.0" layoutY="146.0" stroke="#1c1fd9" strokeType="OUTSIDE" strokeWidth="0.0" text="FlashCards Pro">
+         <font>
+            <Font name="System Font" size="60.0" />
+         </font>
+      </Text>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="325.0" layoutY="440.0" mnemonicParsing="false" onAction="#handleAboutButton" prefHeight="100.0" prefWidth="150.0" style="-fx-background-color: lightsalmon; -fx-border-color: white; -fx-border-width: 3;" text="About">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="600.0" maxWidth="800.0" minHeight="600.0" minWidth="800.0" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: lightsteelblue; -fx-border-color: white; -fx-border-width: 10;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="smhgzdnotecards.AboutViewController">
+   <children>
+      <Button layoutX="325.0" layoutY="549.0" mnemonicParsing="false" onAction="#handleMainMenuButton" prefHeight="25.0" prefWidth="150.0" text="Main Menu" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="241.0" layoutY="35.0" prefHeight="82.0" prefWidth="319.0" text="Using FlashCards Pro">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="117.0" prefHeight="12.0" prefWidth="593.0" text="-To make a new set of flashcards, click on the &quot;New Set&quot; button on the welcome screen" />
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="140.0" prefHeight="56.0" prefWidth="593.0" text="-Once in the new set window, type the front and back of your notecard into the corresponding fields, then click the &quot;add&quot; button to add that notecard to your set. Be sure to give your set a name, and once finished adding notecards, click on the &quot;Save&quot; button. " wrapText="true" />
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="196.0" prefHeight="37.0" prefWidth="593.0" text="-To load your newly created set, or a previously created set, click on the &quot;Load set&quot; button on the welcome screen. " wrapText="true" />
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="233.0" prefHeight="56.0" prefWidth="593.0" text="-Once in the load set window, click on the desired notecard set that you wish to study. If you would like to delete a set from your library, simply right click on the desired set and select &quot;delete&quot;" wrapText="true" />
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="289.0" prefHeight="56.0" prefWidth="593.0" text="-After selecting a notecard set, you will be taken to that set to study. Simply double click on the notecard to flip it and reveal the front/back of the notecard. Use the next/previous buttons to navigate through your notecard set" wrapText="true" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="241.0" layoutY="345.0" prefHeight="56.0" prefWidth="319.0" text="About FlashCards Pro">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_LEFT" contentDisplay="CENTER" layoutX="104.0" layoutY="407.0" prefHeight="121.0" prefWidth="593.0" text="-FlashCards Pro is a JavaFX application developed by Shelby Heffron. Shelby is a student at the University of Missouri, currently pursuing a degree in Computer Science. FlashCardsPro is designed to aid students in studying by allowing students to create a virtual set of flashcards to study, without all the clutter of physical flashcards." wrapText="true" />
+   </children>
+</AnchorPane>
